@@ -151,7 +151,7 @@ body.order-mode .cafe-items {
   white-space: nowrap;
 }
 
-.cafe-item-price:before {
+/* .cafe-item-price:before {
   display: inline-block;
   vertical-align: top;
   content: '';
@@ -160,7 +160,7 @@ body.order-mode .cafe-items {
   border-radius: 2px;
   background-color: currentColor;
   margin: 7px 4px;
-}
+} */
 
 .cafe-item-buttons {
   display: flex;
