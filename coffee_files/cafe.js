@@ -123,7 +123,7 @@ var Cafe = {
     Cafe.updateItem(itemEl, delta);
   },
   formatPrice: function (price) {
-    return '$' + Cafe.formatNumber(price / 1000, 2, '.', ',');
+    return 'Rp' + Cafe.formatNumber(price, 2, ',', '.');
   },
   formatNumber: function (number, decimals, decPoint, thousandsSep) {
     number = (number + '').replace(/[^0-9+\-Ee.]/g, '')
